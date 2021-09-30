@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Nathalie Lavroff</title>
+</head>
+
+<body>
+  <main>
+    <!-- MENU NAV -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#projets-menu">Projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#parcours-menu">Parcours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#articles-menu">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-menu">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HOMEPAGE et ANIMATION-->
+    <div class="container-fluid">
+      <div class="homepage">
+
+        <div id="app">
+          <div id="wrapper">
+            <h1 class="nathalie" data-text="Nathalie Lavroff">Nathalie Lavroff</h1>
+            <span class="sub">Web Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTIE 1 : PROJETS -->
+    <div class="container-fluid">
+      <h2 id="projets-menu">Mes Projets</h2>
+      <div class="projets">
+
+        <div>
+          <img src="/img/projet1.png" class="d-block w-100" alt="projet1">
+          <h3><a href="projet1.html">Projet 1 </a></h3>
+        </div>
+
+        <div>
+          <img src="/img/projet2.png" class="d-block w-100" alt="projet1">
+          <h3>Projet 2</h3>
+        </div>
+
+        <div>
+          <img src="/img/projet1.png" class="d-block w-100" alt="projet1">
+          <h3>Projet 3</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PARTIE 2 : PARCOURS -->
+    <div class="container-fluid">
+
+      <div class="parcours">
+        <div class="avatar"><img src="/img/avatar.png" alt="avatar"><button type="button"
+            class="btn btn-outline-primary">Télécharger le CV</button></div>
+        <div class="presentation-text">
+          <div><h2 id="parcours-menu">Mon Parcours</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil veritatis delectus possimus quia sit
+            ducimus aliquid eum, saepe tempora alias nostrum. Atque ullam vel ea cum fugiat! Minima, quam ullam. Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Natus odio expedita, eum sunt error similique nam at cum
+            reprehenderit alias sed tempora explicabo et maiores earum! Ab mollitia eius officia.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTIE 3 : ARTICLES -->
+    <div class="container-fluid">
+      <h2 id="articles-menu">Articles</h2>
+      <div class="articles">
+
+        <div class="article-1">
+          <img src="/img/article1.jpg" class="d-block w-100" alt="article1">
+          <h3>Article 1</h3>
+        </div>
+
+        <div class="article-2">
+          <img src="/img/article2.jpg" class="d-block w-100" alt="article2">
+          <h3>Article 2</h3>
+        </div>
+
+
+        <div class="article-3">
+          <img src="/img/article3.jpg" class="d-block w-100" alt="article3">
+          <h3>Article 3</h3>
+        </div>
+
+        <div class="article-4">
+          <img src="/img/article4.jpg" class="d-block w-100" alt="article4">
+          <h3>Article 4</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTIE 4 : CONTACT -->
+    <div class="container-fluid">
+      <div class="contact" id="contact-menu">
+        <h2>Contact</h2>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">SAY HI !</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5">
+              <button type="button" class="btn btn-outline-primary">Envoyer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- PARTIE 5 : FOOTER -->
+  <footer>
+    <div class="container-fluid">
+      <div class="footer">
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a class="icon-link github"><i class="fa fa-github"></i></a>
+        <h4>www.nathalielavroff.com</h4>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
