@@ -10,10 +10,6 @@
 	--font-style : 'Montserrat', sans-serif;
 }
 
-*
-{
-    box-sizing: border-box;
-}
 
 .container-fluid {
 	margin: 0;
@@ -54,8 +50,6 @@ h5 {
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
  html, body {
-	 padding: 0;
-	 margin: 0;
 	 font-family: var(--font-style);
      position: relative;
 }
@@ -376,7 +370,8 @@ h5 {
 
 img {
 	border-radius: 10px;
-	
+	width: 100%;
+	transition: 0.4s all ease-in-out;
 }
 
 .fa {
@@ -417,6 +412,79 @@ a:hover {
 	  max-width: 100%;
 	  margin-bottom: 20px;
   }
+  .slider {
+	position: relative;
+	width: 100%;
+	top: calc(50% - 97.25px);
+	overflow: hidden;
+}
+.slider .slider-row {
+	width: 2956px;
+	height: 194.5px;
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/ubiquity-summit-web-01.png);
+	background-size: 2956px 194.5px;
+	animation: slide 50s linear infinite;
+}
+@keyframes slide {
+	from {
+		background-position-x: 0;
+   }
+	to {
+		background-position-x: -2956px;
+   }
+}
+  
+  .cards {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    border-radius: 10px;
+    width: 550px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+	background-color: rgb(47, 47, 63);
+  }
+  
+  .card-img {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/projet1.png");
+	background-color: var(--secondary-bg-color);
+    height: 300px;
+    width: 100%;
+	transition: 0.4s all ease-in-out;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .card-body {
+    padding: 10px 20px;
+  }
+  .card-body h2 {
+    margin: 10px 0px;
+  }
+
+  .card-button {
+    border: none;
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color);
+  }
+
+  .card-button:hover {
+	  color:white;
+  }
+
+  .card-header {
+	  padding: 0;
+	  background-color: rgb(47, 47, 63);
+  }
+
+
   
 @media screen and (min-width:600px) {
 	
@@ -432,9 +500,14 @@ a:hover {
 		margin-bottom : 100px;
 	}
 
+	.card-img:hover {
+		cursor: pointer;
+		transform: scale(1.15);
+	}
 	img:hover, h3:hover {
 		cursor: pointer;
-		opacity: 0.5;
+		transform: scale(1.2);
+		
 	  }
 
 	img:nth-child(2) {
