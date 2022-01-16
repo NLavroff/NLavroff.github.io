@@ -42,7 +42,7 @@ function createCard(title, imageUrl, link) {
   cardBody.classList.add("card-body");
   card.appendChild(cardBody);
 
-  const cardTitle = document.createElement("h2");
+  const cardTitle = document.createElement("button");
   cardTitle.classList.add("card-title");
   cardTitle.innerHTML = title;
   cardBody.appendChild(cardTitle);
