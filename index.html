@@ -14,10 +14,9 @@
 </head>
 
 <body>
-  <div>
     <!-- MENU NAV -->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">NL</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#projets-menu">Projets</a>
               </li>
@@ -34,8 +33,12 @@
                 <a class="nav-link" href="#parcours-menu">Parcours</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#articles-menu">Articles</a>
+                <a class="nav-link" href="#competences-menu">Compétences</a>
               </li>
+              <!--
+              <li class="nav-item">
+                <a class="nav-link" href="#articles-menu">Articles</a>
+              </li>-->
               <li class="nav-item">
                 <a class="nav-link" href="#contact-menu">Contact</a>
               </li>
@@ -59,7 +62,7 @@
     </div>
 
   <!-- PARTIE 1 : PROJETS -->
-  <h2 id="projets-menu">Mes Projets</h2>
+  <h2 id="projets-menu">Projets</h2>
     <div class="cards">
       <!-- <div class="card">
         <div class="card-header">
@@ -77,25 +80,30 @@
     <div class="container-fluid">
 
       <div class="parcours" id="parcours-menu">
-        <div class="avatar"><img src="./img/avatar.png" alt="avatar"><button type="button"
-            class="btn btn-outline-primary">Télécharger le CV</button></div>
+        <div class="avatar"><a href="img/CVNathalieLavroff.pdf"><img src="./img/avatar.png" alt="avatar"></a>
+          <button type="button" class="btn btn-outline-primary">
+            <a href="img/CVNathalieLavroff.pdf">Télécharger le CV</a>
+          </button>
+        </div>
         <div class="presentation-text">
           <div><h2>Mon Parcours</h2>
             <p>En formation Développeur Web et Web Mobile (Full Stack) intensive de 7 mois chez Donkey School. 
-            <br>En recherche d'un stage de 3 à 6 mois en tant que Développeuse Web Frontend. 
-            <br><br>Compétences : HTML, CSS, JS, TS, Angular, PHP, Symfony.</p>
+            <br>En recherche d'un stage de 3 à 6 mois en tant que Développeuse Web Frontend.
         </div>
       </div>
       </div>
     </div>
     <div class="container-fluid"></div>
       <div class="slider">
+        <div class="competences" id="competences-menu">
+          <h2>Compétences</h2>
         <div class="slider-row"></div>
+      </div>
       </div>
       </div>
     
 
-    <!-- PARTIE 3 : ARTICLES -->
+    <!-- PARTIE 3 : ARTICLES 
     <div class="container-fluid">
       <h2 id="articles-menu">Articles</h2>
       <div class="articles">
@@ -122,6 +130,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <!-- PARTIE 4 : CONTACT -->
     <div class="container-fluid">
@@ -133,7 +142,7 @@
             <div class="row">
               <div class="col-md-5">
                 <div class="mb-3">
-                  <input type="text" class="form-control" name="name" placeholder="Nom">
+                  <input type="text" class="form-control" name="name" required placeholder="Nom">
                 </div>
               </div>
             </div>
@@ -141,7 +150,7 @@
             <div class="row">
               <div class="col-md-5">
                 <div class="mb-3">
-                  <input type="text" class="form-control" name="surname" placeholder="Prénom">
+                  <input type="text" class="form-control" name="surname" required placeholder="Prénom">
                 </div>
               </div>
             </div>
@@ -149,7 +158,7 @@
             <div class="row">
               <div class="col-md-5">
                 <div class="mb-3">
-                  <input type="email" class="form-control" name="email" placeholder="Mail">
+                  <input type="email" class="form-control" name="email" required placeholder="Mail">
                 </div>
               </div>
             </div>

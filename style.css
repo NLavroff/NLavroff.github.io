@@ -31,6 +31,7 @@ h2{
 	margin-bottom: var(--margin-space);
 	margin-top: var(--margin-space);
 	font-size: var(--font-size-h2);
+	text-transform: uppercase;
 }
 
 h3 {
@@ -421,9 +422,13 @@ a:hover {
 .slider .slider-row {
 	width: 2956px;
 	height: 194.5px;
-	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/ubiquity-summit-web-01.png);
+	background-image: url(img/banniere-logos.png);
 	background-size: 2956px 194.5px;
-	animation: slide 50s linear infinite;
+	animation: slide 30s linear infinite;
+}
+
+.slider {
+	padding-bottom: 50px;;
 }
 @keyframes slide {
 	from {
