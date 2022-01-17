@@ -109,7 +109,7 @@ html, body {
     position: relative;
 }
 
-.projets, .articles, .footer {
+.projets, .articles {
     background-color: var(--secondary-bg-color);
 	padding: var(--padding-space);
 }
@@ -119,6 +119,10 @@ html, body {
     font-size: var(--font-size-p);
 }
 
+footer {
+	background-color: var(--secondary-bg-color);
+	padding: 50px;
+}
 img {
 	width: 100%;
 	transition: 0.4s all ease-in-out;
@@ -228,6 +232,11 @@ a:hover {
   #competences {
 	background-color: #3069f0;
 	padding-bottom: 50px;
+}
+
+#contact {
+	border: 3px solid black;
+	margin-bottom: 50px;
 }
 
 @media screen and (min-width:600px) {

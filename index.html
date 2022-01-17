@@ -48,7 +48,7 @@
         <div class="container">
           <h4 class="mb-3 job typewriter">Web Developer Junior</h4>
         </div>
-        <button>Contactez-moi</button>
+        <button><a href="mailto:nathalielavroff@gmail.com">Contactez-moi</a></button>
     </div>
   </div>
 
@@ -61,7 +61,7 @@
     
     <!-- PARTIE 2 : PARCOURS -->      
   <div class="container-fluid">
-      <h2>Parcours</h2>
+      <h2 id="parcours-menu">Parcours</h2>
     </div>
       <div class="container" id="parcours">
         <div class="avatar" ><a href="img/CVNathalieLavroff.pdf"><img src="./img/avatar.png" alt="avatar"></a>
@@ -77,8 +77,8 @@
   
 
     <div class="container-fluid" id="competences">
-      <h2>Compétences</h2>
-        <div class="card-group" id="competences-menu">
+      <h2 id="competences-menu">Compétences</h2>
+        <div class="card-group" >
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="card border-primary mb-3" style="max-width: 18rem;">
               <div class="card-header">Langages</div>
@@ -112,64 +112,17 @@
     <div class="container-fluid">
       <div class="contact" id="contact-menu">
         <h2>Contact</h2>
-
-        <div class="container">
-          <form method="POST" action="mail.php">
-            <div class="row">
-              <div class="col-md-5">
-                <div class="mb-3">
-                  <input type="text" class="form-control" name="name" required placeholder="Nom">
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-5">
-                <div class="mb-3">
-                  <input type="text" class="form-control" name="surname" required placeholder="Prénom">
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-5">
-                <div class="mb-3">
-                  <input type="email" class="form-control" name="email" required placeholder="Mail">
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-5">
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">SAY HI !</label>
-                  <textarea class="form-control" name="message" rows="7"></textarea>
-                </div>
-              </div>
-            </div>
-
-          <div class="row">
-            <div class="col-md-5">
-              <button type="submit" class="btn btn-outline-primary">Envoyer</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </form>
-
   
 </main>
-
+<div class="container" id="contact">
+  <h3>Envie de travailler avec moi ? Une question ?</h3>
+  <button><a href="mailto:nathalielavroff@gmail.com">Dites Bonjour !</a></button>
+</div>
   <!-- PARTIE 5 : FOOTER -->
   <footer>
-    <div class="container-fluid">
-      <div class="footer">
         <a href="https://www.linkedin.com/in/nathalie-lavroff-web-developer/" class="fa fa-linkedin"></a>
         <a href="https://github.com/Nathboule" class="icon-link github"><i class="fa fa-github"></i></a>
-        <h4>www.nathalielavroff.com</h4>
-      </div>
-    </div>
+        <h6>www.nathalielavroff.com</h6>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
