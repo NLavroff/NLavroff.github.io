@@ -12,7 +12,6 @@
 }
 
 .jumbotron {
-	background-image: url('img/Sanstitre.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 860px;
@@ -21,14 +20,40 @@
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
 	color: var(--font-color);
 	background-color: var(--secondary-bg-color);
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+	transform: translate(5px, -5px);
+	transition: 0.2s all ease-in-out;
+	border: 3px solid black;
 }
 .nav-item {
 	font-size: 1.5rem;
+	margin-right: 10px;
 }
 
 .navbar-brand {
-	font-size: 2rem;
+	font-size: 2.5rem;
+	padding: 10px;
+	margin: 10px;
+	border: 3px solid black;
+	background-color: var(--secondary-bg-color);
+	color: var(--font-color);
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--font-color);
+}
+
+.back-to-top {
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	background-color: white;
+  }
+
+  .hidden {
+	display: none;
+  }
 
 body {
     color: var(--font-color);
@@ -148,9 +173,11 @@ a:hover {
 
 .card-group {
 	justify-content: center;
-
 }
-  
+
+.card-text {
+	margin-top : 20px;
+}
   .cards, .cards-projects {
     margin-top: 50px;
     display: flex;
@@ -170,6 +197,7 @@ a:hover {
 	box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
 	transform: translate(5px, -5px);
 	transition: 0.2s all ease-in-out;
+	font-weight: bold;
   }
   
   .card-img {
@@ -258,7 +286,7 @@ a:hover {
   .card-comp {
 	  background-color: var(--primary-bg-color);
 	  margin : 70px;
-	  height: 500px;
+	  height: 300px;
 	  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
   }
 
@@ -290,13 +318,6 @@ a:hover {
 		gap: 30px;
 		
     }
-
-	.articles {
-		display: grid;
-		grid-template-columns: 40% 40%;
-		justify-content: center;
-		gap: 90px;
-	}
 
 	p {
 		
@@ -375,4 +396,7 @@ a:hover {
 	width: 700px;
   }
 
+  .card-comp {
+	height: 500px;
+  }
 }
