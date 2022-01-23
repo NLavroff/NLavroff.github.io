@@ -12,9 +12,13 @@
 }
 
 .jumbotron {
-	background-image: url(/img/Sanstitre.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(/img/Sanstitre.svg) 50% 0 no-repeat;
+	display: block;
+	position: relative;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	height: 860px;
    }
    
