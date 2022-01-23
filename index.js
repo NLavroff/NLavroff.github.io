@@ -1,6 +1,6 @@
 "use strict";
 
-const cards = document.querySelector(".cards");
+const cards = document.querySelector(".cards-projects");
 
 const projects = [
   {
@@ -25,7 +25,7 @@ const projects = [
 
 function createCard(title, imageUrl, link, textModal, index) {
   const card = document.createElement("div");
-  card.classList.add("card");
+  card.classList.add("card-projects");
   cards.appendChild(card);
 
   const cardHeader = document.createElement("div");
