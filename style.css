@@ -190,10 +190,7 @@ a:hover {
 	margin: 20px;
 	padding: 20px;
 	font-size: var(--font-size-h3);
-  }
-
-  .card-button:hover {
-	  color:white;
+	border: 3px solid black;
   }
 
   .card-header {
@@ -210,7 +207,6 @@ a:hover {
 	background-color: #4fe0b0 ;
 	padding-bottom: 50px;
 }
-
 
 #contact {
 	border: 3px solid black;
@@ -278,7 +274,7 @@ a:hover {
 	.card-img:hover {
 		cursor: pointer;
 		/*transform: scale(1.15);*/
-		box-shadow: 10px 10px 0px 0px var(--secondary-bg-color);
+		box-shadow: 15px 15px 0px 0px var(--secondary-bg-color);
 		transform: translate(10px, -10px);
 	}
 	img:hover, h3:hover {
