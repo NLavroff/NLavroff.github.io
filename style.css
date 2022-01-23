@@ -12,6 +12,7 @@
 }
 
 .jumbotron {
+	background-image: url(/img/Sanstitre.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 860px;
@@ -196,7 +197,6 @@ a:hover {
 	box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
 	transform: translate(5px, -5px);
 	transition: 0.2s all ease-in-out;
-	font-weight: bold;
   }
   
   .card-img {
@@ -352,7 +352,7 @@ a:hover {
 	}
 
 	.card-comp {
-		width: 300px;
+		width: 400px;
 	}
 
 	.card-projects {
