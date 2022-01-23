@@ -16,7 +16,7 @@ const projects = [
     textModal: "J'ai réalisé ce projet sous Wordpress pour une jeune créatrice de mode qui souhaite présenter et vendre ses créations en ligne. L'ouverture de ce site est prévue pour le 20 mars 2022.<br>Stack utilisés : Wordpress, PHP8, CSS3"
   },
   {
-    name: "DonkeyEvent",
+    name: "Donkey Event",
     picture: "img/projet3.png",
     link: "https://github.com/Nathboule/DonkeyEvent",
     textModal: "Ce projet a été réalisé en trinôme dans le cadre de ma formation chez DonkeySchool. Nous avons eu 2 semaines pour réaliser une billetterie en ligne sous PHP via la méthode AGILE. Nous avons conçu une base de donnée, un panier d'achat et un CRUD. <br>Stack utilisés : PHP8, HTML5, CSS3, Bootsrap5, MySQL"
