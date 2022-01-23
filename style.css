@@ -6,7 +6,7 @@
     --font-size-p: 0.5rem;
 	--font-size-h2: 3rem;
 	--font-size-h3: 2rem;
-    --margin-space : 40px;
+    --margin-space : 80px;
 	--padding-space : 40px;
 	--font-style : 'Space Mono';
 }
@@ -45,29 +45,6 @@ h1 {
 	margin-top :200px;
   }
 
-.typewriter {
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid var(--secondary-bg-color); /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em; /* Adjust as needed */
-	display: inline-block;
-	animation: 
-	  typing 2.5s steps(20, end),
-	  blink-caret .70s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-	from { width: 0 }
-	to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: var(--secondary-bg-color); }
-  }
 
 .nathalie {
 	font-size: 3em;
@@ -78,7 +55,8 @@ h1 {
 	font-size: 1em;
 }
 
-h2{
+
+h2 {
 	margin-bottom: var(--margin-space);
 	font-size: var(--font-size-h2);
 	text-transform: uppercase;
@@ -87,7 +65,7 @@ h2{
 	display: inline-block;
 	padding: 20px;
 	background-color: #ffffff;
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 h3 {
@@ -237,8 +215,8 @@ a:hover {
 
 #contact {
 	border: 3px solid black;
-	margin-bottom: 50px;
-	padding-bottom: 50px;
+	margin-bottom: 100px;
+	padding-bottom: 80px;
 }
 
 .modal {
@@ -313,7 +291,6 @@ a:hover {
 	
 	#projets {
 		background-color: #4fe0b0;
-		padding: 50px;
 	}
 
 	.articles {
@@ -346,12 +323,6 @@ a:hover {
 		font-size: 3em;
 	}
 
-	.typewriter {
-		animation: 
-		  typing 3.5s steps(40, end),
-		  blink-caret .70s step-end infinite;
-	  }
-
 	#parcours {
 		display: flex;
 		flex-direction: row;
@@ -377,4 +348,28 @@ a:hover {
 	.presentation-text {
 		margin-left: 60px;
 	}
+
+	.typewriter {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid var(--secondary-bg-color); /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	display: inline-block;
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: var(--secondary-bg-color); }
+  }
 }
