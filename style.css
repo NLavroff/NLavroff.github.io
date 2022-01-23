@@ -241,6 +241,7 @@ a:hover {
 }
 
 #contact {
+	background-image: url(/img/Sanstitre.svg);
 	border: 3px solid black;
 	margin-bottom: 100px;
 	padding: 80px;
