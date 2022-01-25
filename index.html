@@ -13,45 +13,48 @@
   <title>Nathalie Lavroff</title>
 </head>
 <body>
-  <header>
-    <!-- MENU NAV -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">NL</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+  
+<header>
+  <!-- MENU NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#projets-menu">Projets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#parcours-menu">Parcours</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#competences-menu">Compétences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-menu">Contact</a>
-              </li>
-            </ul>
-          </div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#projets-menu">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#parcours-menu">Parcours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competences-menu">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-menu">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <div class="jumbotron">
-  <div class="p-5 text-center">
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="p-5 text-center">
         <h1 class="mb-3 nathalie">Nathalie Lavroff</h1>
-        <div class="container">
-          <h4 class="mb-3 job typewriter">Développeuse Web Junior Front-end.</h4>
+          <div class="container">
+            <h4 class="mb-3 job typewriter">Développeuse Web Junior Front-end.</h4>
+          </div>
+          <button onclick="location.href='mailto:nathalie.lavroff-std@donkey.school';">Contactez-moi</button>
         </div>
-        <button><a href="mailto:nathalie.lavroff-std@donkey.school">Contactez-moi</a></button>
-    </div>
-  </div>
-  <button class="back-to-top hidden">↑</button>
+      </div>
+      <button class="back-to-top hidden">↑</button>
+</header>
 
+<main>
   <!-- PARTIE 1 : PROJETS -->
   <div class="container-fluid" id="projets">
     <h2 id="projets-menu">Projets</h2>
@@ -59,73 +62,66 @@
     </div>
   </div>
     
-    <!-- PARTIE 2 : PARCOURS -->      
+  <!-- PARTIE 2 : PARCOURS -->      
   <div class="container-fluid">
       <h2 id="parcours-menu">Parcours</h2>
+  </div>
+  <div class="container" id="parcours">
+    <div class="avatar" ><a href="img/CVNathalieLavroff.pdf" target="_blank"><img src="./img/avatar.png" alt="avatar"></a>
+      <button class="cv" type="submit" onclick="window.open('img/CVNathalieLavroff.pdf')">Télécharger le CV</button>
     </div>
-      <div class="container" id="parcours">
-        <div class="avatar" ><a href="img/CVNathalieLavroff.pdf" target="_blank"><img src="./img/avatar.png" alt="avatar"></a>
-          <button class="cv">
-          <a href="img/CVNathalieLavroff.pdf" target="_blank">Télécharger le CV</a>
-          </button>
-        </div>
-      <div class="presentation-text">
-        <p>Actuellement en formation Développeur Web et Web Mobile (Full Stack) intensive de 13 mois chez Donkey School, je suis à la recherche d'un stage de 3 à 6 mois à partir de mi-avril.
-        <br><br>Ayant plus de sensibilité sur l'aspect visuel des choses, je souhaiterais développer mes compétences côté Front-end.
-        <br><br>De nature créative, j'ai également une forte appétence pour le design UX et UI.</p>
-        <br> 
-      </div>
+    <div class="presentation-text">
+      <p>Actuellement en formation Développeur Web et Web Mobile (Full Stack) intensive de 13 mois chez Donkey School, je suis à la recherche d'un stage de 3 à 6 mois à partir de mi-avril.
+      <br><br>Ayant plus de sensibilité sur l'aspect visuel des choses, je souhaiterais développer mes compétences côté Front-end.
+      <br><br>De nature créative, j'ai également une forte appétence pour le design UX et UI.</p>
+      <br> 
     </div>
+  </div>
   
-
-    <div class="container-fluid" id="competences">
-      <h2 id="competences-menu">Compétences</h2>
-
-        <div class="card-group">
-            <div class="card-comp">
-              <div class="card-header title-card">Langages</div>
-              
-                <div class="card-text">
-                  <p>JavaScript(ES6)/<br>
-                  TypeScript/<br>
-                  HTML5/CSS4/SCSS/<br>PHP8<br>
-                </p>
-
-                </div>
+  <div class="container-fluid" id="competences">
+    <h2 id="competences-menu">Compétences</h2>
+      <div class="card-group">
+        <div class="card-comp">
+          <div class="card-header title-card">Langages</div>
+            <div class="card-text">
+              <p>JavaScript(ES6)/<br>
+                TypeScript/<br>
+                HTML5/CSS4/SCSS/<br>PHP8<br>
+              </p>
             </div>
-            <div class="card-comp">
-              <div class="card-header title-card">Frameworks</div>
-                <p class="card-text">Angular13/<br>Symfony6/<br>Bootstrap5/</p>
-            </div>
-            <div class="card-comp">
-              <div class="card-header title-card">Outils & Plateformes</div>
-                <p class="card-text">Git/Github/<br>Wordpress/</p>
-            </div>
-            <div class="card-comp">
-              <div class="card-header title-card">Design</div>
-                <p class="card-text">Figma/<br>Photoshop/<br>Illustration</p>
-            </div>
+          </div>
+        <div class="card-comp">
+          <div class="card-header title-card">Frameworks</div>
+            <p class="card-text">Angular13/<br>Symfony6/<br>Bootstrap5/</p>
+        </div>
+        <div class="card-comp">
+          <div class="card-header title-card">Outils & Plateformes</div>
+            <p class="card-text">Git/Github/<br>Wordpress/</p>
+        </div>
+        <div class="card-comp">
+          <div class="card-header title-card">Design</div>
+            <p class="card-text">Figma/<br>Photoshop/<br>Illustration</p>
+        </div>
       </div>
-    </div>
+  </div>
 
     <!-- PARTIE 4 : CONTACT -->
-    <div class="container-fluid">
-      <div class="contact" id="contact-menu">
-        <h2>Contact</h2>
-        <div class="container" id="contact">
-          <h3>Envie de travailler avec moi ?<br>Une question ?</h3>
-          <button><a href="mailto:nathalie.lavroff-std@donkey.school">Dites Bonjour !</a></button>
-        </div>
+  <div class="container-fluid">
+    <div class="contact" id="contact-menu">
+      <h2>Contact</h2>
+      <div class="container" id="contact">
+        <h3>Envie de travailler avec moi ?<br>Une question ?</h3>
+        <button onclick="location.href='mailto:nathalie.lavroff-std@donkey.school';">Contactez-moi</button>
       </div>
     </div>
+  </div>
 </main>
 
   <!-- PARTIE 5 : FOOTER -->
-  <footer class= "container-fluid">
-    <a href="https://www.linkedin.com/in/nathalie-lavroff-web-developer/" class="fa fa-linkedin"></a>
-    <a href="https://github.com/Nathboule" class="icon-link github"><i class="fa fa-github"></i></a>
-    <h6>Nathalie Lavroff - 2022</h6>
-  </div>
+<footer class= "container-fluid">
+  <a href="https://www.linkedin.com/in/nathalie-lavroff-web-developer/" class="fa fa-linkedin"></a>
+  <a href="https://github.com/Nathboule" class="icon-link github"><i class="fa fa-github"></i></a>
+  <h6>Nathalie Lavroff - 2022</h6>
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
