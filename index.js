@@ -4,6 +4,12 @@ const cards = document.querySelector(".cards-projects");
 
 const projects = [
   {
+    name: "SportsAdmin",
+    picture: "img/projet4.png",
+    link: "https://github.com/selimgomri/sportsadmin",
+    textModal: "Ce projet est en cours de réalisation. Nous avons 2 mois, avec une équipe de 5 personnes, pour construire une application de gestion de club sportif. L'application est développée en Angular pour la partie Front et Symfony pour la partie Back."
+  },
+  {
     name: "Vivo Green",
     picture: "img/projet1.png",
     link: "https://www.vivo-green.fr/",
@@ -20,7 +26,7 @@ const projects = [
     picture: "img/projet3.png",
     link: "https://github.com/Nathboule/DonkeyEvent",
     textModal: "Ce projet a été réalisé en trinôme dans le cadre de ma formation chez DonkeySchool. Nous avons eu 2 semaines pour réaliser une billetterie en ligne sous PHP via la méthode AGILE. Nous avons conçu une base de donnée, un panier d'achat et un CRUD. <br>Stack utilisés : PHP8, HTML5, CSS3, Bootsrap5, MySQL"
-  },
+  }
 ];
 
 function createCard(title, imageUrl, link, textModal, index) {
